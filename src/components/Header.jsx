@@ -1,11 +1,13 @@
 import React from "react"
+import profile from "../assets/images/primary.jpg"
+import QR from "../assets/images/qr_zj.jpg";
 
 export default function Header() {
   return (
     <header>
-      <img className="header--photo" src="./src/assets/images/primary.jpg" alt="" />
+      <img className="header--photo" src={profile} alt="" />
       <figure className="main--qr">
-        <a href="https://qrco.de/bfAuDr" target="_blank"><img src="./src/assets/images/qr_zj.jpg" alt="qr-code" /></a>
+        <a href="https://qrco.de/bfAuDr" target="_blank"><img src={QR} alt="qr-code" /></a>
       </figure>
     </header>
   )

@@ -1,9 +1,9 @@
 import React from "react";
 
+
 export default function Main() {
   return (
     <main>
-
       <h1 className="main--name">Zee Jay</h1>
       <p className="main--position">Frontend Developer</p>
       <p className="main--website">zee.jay@yp.com</p>
